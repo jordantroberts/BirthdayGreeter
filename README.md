@@ -11,4 +11,4 @@ When the user submits the form, and depending on the current date, the app will 
 
 ## Domain Model
 
-![Screenshot 2019-04-26 at 13.48.11](Screenshot 2019-04-26 at 13.48.11.png)
+![BirthdayGreetDomainModel](https://user-images.githubusercontent.com/46907218/56830385-1c265700-685e-11e9-9954-2e433f18a321.png)
