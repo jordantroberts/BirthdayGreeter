@@ -11,4 +11,4 @@ When the user submits the form, and depending on the current date, the app will 
 
 ## Domain Model
 
-![Birthday Greeter domain model] (http://github.com/jordantroberts/BirthdayGreeter/blob/master/Screenshot%202019-04-26%20at%2013.48.11.png)
+![Screenshot 2019-04-26 at 13.48.11] (Screenshot 2019-04-26 at 13.48.11.png)
