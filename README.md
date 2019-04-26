@@ -11,4 +11,4 @@ When the user submits the form, and depending on the current date, the app will 
 
 ## Domain Model
 
-![Birthday Greeter domain model] (./public/images/Screenshot 2019-04-26 at 13.48.11.png)
+![Birthday Greeter domain model] (./Screenshot 2019-04-26 at 13.48.11.png)
