@@ -8,3 +8,7 @@ When the user submits the form, and depending on the current date, the app will 
 
 * wish the user happy birthday
 * tell them how long they'll have to wait until their next birthday
+
+## Domain Model
+
+![Birthday Greeter domain model] (./public/images/Screenshot 2019-04-26 at 13.48.11.png)
