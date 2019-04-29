@@ -24,14 +24,18 @@ class Greeter
     "November" => 11,
     "December" => 12
     }
-    date = Date.new
-    birthday_date = Date.new(Date.today.year, monthnums[@month], @day.to_i)
-    today_date = Date.today
-    if birthday_date == today_date
+    birthday_date = Date.new(today_date.year, monthnums[@month], @day.to_i)
+    today_date = Date.today.strftime("%b %d")
+    @diff = today_date - birthday_date
+
+    if diff == 0
       "Happy birthday!"
+    elsif
+      diff > 0
+      "You have #{365 - diff} days until your birthday"
     else
-      @diff = birthday_date - today_date
-      "There are #{@diff.to_i} days until your birthday"
+      diff = diff.abs
+      "You have #{365 - diff} days until your birthday"
     end
   end
 end

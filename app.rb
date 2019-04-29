@@ -1,19 +1,18 @@
 require 'sinatra/base'
+require './lib/greeter'
 
 class BirthdayGreeter < Sinatra::Base
-  enable :sessions
 
   get '/' do
     erb :index
   end
 
   post '/calculator' do
-    session[:name] = params[:name]
-    session[:day] = params[:day]
-    session[:month] = params[:month]
-    @name = session[:name]
-    @day = session[:day]
-    @month = session[:month]
+    @name = params[:name]
+    @day = params[:day]
+    @month = params[:month]
+    @greeter = Greeter.new
+
     erb :greeting
   end
 
