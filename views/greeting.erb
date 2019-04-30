@@ -1,3 +1,11 @@
 <h1>Hi <%= @name %>, your birthday is <%= @day %> of <%= @month %> </h1>
 
-<h2>There are "There are <%= @diff %> days until your birthday"
+
+<% if @diff > 0 %>
+  <h2>You have <%=365 - @diff%> days until your birthday!</h2>
+  <% elsif @diff == 0 %>
+  <h2>Happy birthday <%=@name%>!</h2>
+  <% else %>
+  <% @diff = 365 - @diff.abs %>
+  <h2>You have <%=365 - @diff%> days until your Birthday</h2>
+  <% end %>
