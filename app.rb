@@ -30,16 +30,6 @@ class BirthdayGreeter < Sinatra::Base
     birthday_date = Date.new(Date.today.year, monthnums[@month], @day.to_i)
     date_today = Date.today
     @diff = (date_today - birthday_date).to_i
-    # 
-    # if @diff == 0
-    #   puts "Happy birthday #{@name}"
-    # elsif @diff > 0
-    #   puts "You have #{365 - @diff} days until your Birthday"
-    #   @diff = 365 - @diff
-    # else
-    #   @diff = @diff.abs
-    #   puts "You have #{365 - @diff} days until your Birthday"
-    # end
 
     erb :greeting
 

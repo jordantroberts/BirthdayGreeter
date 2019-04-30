@@ -1,4 +1,8 @@
-<h1>Hi <%= @name %>, your birthday is <%= @day %> of <%= @month %> </h1>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<center><h1>Hi <%= @name %>, your birthday is <%= @day %> of <%= @month %> </h1>
 
 
 <% if @diff > 0 %>
@@ -9,3 +13,4 @@
   <% @diff = 365 - @diff.abs %>
   <h2>You have <%=365 - @diff%> days until your Birthday</h2>
   <% end %>
+</center>
