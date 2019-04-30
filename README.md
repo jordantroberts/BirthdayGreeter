@@ -1,4 +1,6 @@
-#### Birthday Greeter App
+# Birthday Greeter App
+
+I created this app in my third week of Makers Academy to practice playing around with web apps. I would like to revisit this in future and work on it further but for now it works as intended.
 
 ## Task
 
