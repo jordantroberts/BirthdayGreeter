@@ -31,5 +31,9 @@ When you click 'submit' you should be informed how many days left until your bir
 If it's your birthday today (happy birthday) then you should instead be greeted with a Happy Birthday message:
 ![BD Greeter Screenshot 4](https://user-images.githubusercontent.com/46907218/56975553-f86a5600-6b68-11e9-8247-7c0305d8f8fe.png)
 
+## To Fix
+* Tests
+* Tidy up code to include a Greeter class - at the moment the app works as intended but I would like the code to be cleaner
+
 ## Acknowledgments
 Jordan Roberts - a Makers Academy challenge
