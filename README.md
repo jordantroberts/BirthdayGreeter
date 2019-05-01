@@ -1,6 +1,6 @@
 # Birthday Greeter App
 
-I created this app in my third week of Makers Academy to practice playing around with web apps. I would like to revisit this in future and work on it further but for now it works as intended.
+I created this app in my third week of Makers Academy to practice playing around with web apps. I would like to revisit this in future and work on it further but this app works as intended :) 
 
 ## Task
 
@@ -13,7 +13,7 @@ When the user submits the form, and depending on the current date, the app will 
 
 ## Domain Model
 
-![BirthdayGreetDomainModel](https://user-images.githubusercontent.com/46907218/56830385-1c265700-685e-11e9-9954-2e433f18a321.png)
+![UpdatedMVC](https://user-images.githubusercontent.com/46907218/57039392-6d668a00-6c54-11e9-9065-97ea5168ebef.png)
 
 ## Using the program
 
@@ -34,8 +34,7 @@ If it's your birthday today (happy birthday) then you should instead be greeted 
 ![BD Greeter Screenshot 4](https://user-images.githubusercontent.com/46907218/56975553-f86a5600-6b68-11e9-8247-7c0305d8f8fe.png)
 
 ## To Fix
-* Tests
-* Tidy up code to include a Greeter class - at the moment the app works as intended but I would like the code to be cleaner
+* Need to unit test
 
 ## Acknowledgments
 Jordan Roberts - a Makers Academy challenge

@@ -1,15 +1,4 @@
-# Notes from meeting with Sophie:
-# Redirect to a get request after a post
-# Make sure the Greeter method returns useful data, not just a string. E.g. returns an integer 0 or > 0
-# View can decide what to put as a string - can interplay Ruby in there
-
 class Greeter
-
-  @name = ""
-  @bd_monthnum = 0
-  @bd_day = 0
-  @bd_monthname = ""
-  @dtb = 0
 
   def setName (n)
     @name = n
