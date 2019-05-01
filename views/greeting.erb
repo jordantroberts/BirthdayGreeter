@@ -2,15 +2,17 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<center><h1>Hi <%= @name %>, your birthday is <%= @day %> of <%= @month %> </h1>
+<!DOCTYPE html>
+<html>
+	<body>
+    <center>
+		<h1>Hi <%= @greeter.getName %>, your birthday is <%= @greeter.getBdDay %> of <%= @greeter.getBdMonthName %> </h1>
 
-
-<% if @diff > 0 %>
-  <h2>You have <%=365 - @diff%> days until your birthday!</h2>
-  <% elsif @diff == 0 %>
-  <h2>Happy birthday <%=@name%>!</h2>
-  <% else %>
-  <% @diff = 365 - @diff.abs %>
-  <h2>You have <%=365 - @diff%> days until your Birthday</h2>
-  <% end %>
-</center>
+		<% if @greeter.getDtb > 0  %>
+  			<h2>There are <%= @greeter.getDtb %> days until your birthday!</h2>
+		<% else %>
+ 			<h2>Happy Birthday!</h2>
+		<% end %>
+    </center>
+	</body>
+</html>
